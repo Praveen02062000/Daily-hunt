@@ -1,0 +1,553 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Kanit:wght@500&family=Mochiy+Pop+One&family=Orbitron:wght@700&family=Permanent+Marker&family=Rowdies&family=Teko:wght@400;500&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Kanit:wght@500&family=Mochiy+Pop+One&family=Orbitron:wght@700&family=Pacifico&family=Permanent+Marker&family=Rowdies&family=Teko:wght@400;500&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+
+body{
+    margin: 0;
+    overflow: hidden;
+}
+.login-page{
+    position: absolute;
+    top:0;
+    background-color: rgb(255, 255, 255);
+    width:100%;
+    height:77rem;
+}
+.logo img{
+    width:200px;
+    position: absolute;
+    top:1rem;
+    left:-1rem;
+}
+.title h3{
+    color:rgb(0, 0, 0);
+    position: relative;
+    left:70rem;
+    font-size:90px;
+    font-family: 'Pacifico', cursive;
+    animation:title 2.6s linear 1;
+    opacity:1;
+    
+}
+.title1 h1{
+    font-size:300px;
+    font-family: 'Dancing Script', cursive;
+    animation:title3 2s linear 1;
+    position: relative;
+    left:90rem;
+    bottom:15rem;
+    opacity:1;
+    color:rgb(255, 163, 15);
+   
+}
+@keyframes title3 {
+    0%{
+        left:60rem;
+        opacity:0;
+        
+    }
+   
+    
+}
+.title1 h2:nth-child(2){
+    font-size:180px;
+    font-family: 'Dancing Script', cursive;
+    animation:title2 2s linear 1;
+    position:absolute;
+    left:105rem;
+    bottom:40rem;
+    opacity:1;
+}
+.title1 h2:nth-child(3){
+    font-size:180px;
+    font-family: 'Dancing Script', cursive;
+    animation:title2 1.5s linear 1;
+    position:absolute;
+    left:110rem;
+    bottom:40rem;
+    opacity:1;
+}
+.title1 h2:nth-child(4){
+    font-size:180px;
+    font-family: 'Dancing Script', cursive;
+    animation:title2 1s linear 1;
+    position:absolute;
+    left:113rem;
+    bottom:40rem;
+    opacity:1;
+}
+.title1 h2:nth-child(5){
+    font-size:180px;
+    font-family: 'Dancing Script', cursive;
+    animation:title2 0.5s linear 1;
+    position:absolute;
+    left:116rem;
+    bottom:40rem;
+    opacity:1;
+}
+@keyframes title2 {
+    0%{
+        left:80rem;
+        opacity:0;
+    }
+    
+}
+.hunt h2{
+    position:absolute;
+    top:15rem;
+    right:13rem;
+    font-family:cursive;
+    font-size:80px;
+    color:red;
+    transform:rotate(0deg);
+    animation:drop 3s linear 1;
+
+
+}
+@keyframes drop {
+    0%{
+        top:-10rem;
+        animation-delay:2s;
+        transform: rotate(0deg);
+    }
+    60%{
+        top:17rem;
+        transform: rotate(20deg);
+    }
+    85%{
+        top:14.5rem;
+        transform: rotate(5deg);
+    }
+    
+}
+@keyframes title {
+    0%{
+        left:60rem;
+        opacity:0;
+    }
+    
+}
+
+.pizza_img img:nth-child(1){
+    width:170px;
+    position: absolute;
+    animation: drop1 7s linear 1;
+    top:11rem;
+    z-index:0;
+    transform:rotate(10deg);
+    right:10rem;
+}
+@keyframes drop1 {
+    0%{
+        top:-10rem;
+        animation-delay:2s;
+        transform: rotate(0deg);
+    }
+    60%{
+        top:12rem;
+        transform: rotate(20deg);
+    }
+    85%{
+        top:11rem;
+        transform: rotate(5deg);
+    }
+    
+    
+}
+.pizza_img img:nth-child(2){
+    width:700px;
+    position: absolute;
+    right:2rem;
+    bottom:20rem;
+    animation: dance 3s linear infinite;
+    
+
+}
+@keyframes dance 
+{
+    0%{
+        transform:rotate(2deg);
+    }
+    25%{
+        transform:rotate(4deg);
+    }
+    50%{
+        transform: rotate(2deg);
+    }
+    75%{
+        transform:rotate(-1deg);
+    }
+    100%{
+        transform: rotate(2deg);
+    }
+    
+}
+
+.login{
+    background-color: rgba(255, 255, 255, 0.677);
+    width:39rem;
+    height:50rem;
+    position: absolute;
+    top:15rem;
+    left:8rem;
+    border-radius:50px;
+    box-shadow:10px 15px 30px rgba(34, 34, 34, 0.064);
+    display:block;
+    cursor: pointer;
+
+
+    
+}
+.already
+{
+    color:blue;
+    font-size:16px;
+    position: absolute;
+    right:5rem;
+    bottom:22rem;
+    font-family: 'Times New Roman', Times, serif;
+}.already:hover{
+    text-decoration: underline;
+}
+.already:active
+{
+    transform: scale(0.95,0.95);
+}
+@keyframes side {
+    0%{
+        left: 8rem;
+    }100%{
+        left:-50rem;
+        opacity:0.2;
+    }
+    
+}
+
+.login .val {
+    background-color: transparent;
+    height:20rem; 
+    border-radius:50px; 
+    position: absolute;
+    top:7rem;
+}
+.val input:nth-child(2),input:nth-child(4){
+    width:480px;
+    height:80px;
+    position:absolute;
+    left:3.5rem;
+    margin-bottom:70px;
+    top:3rem;
+    border-radius:20px;
+    border:1px solid rgba(195, 195, 195, 0.557);
+    font-size:25px;
+    padding-left:30px;
+    font-family:'Times New Roman', Times, serif;
+}
+.val input:nth-child(4){
+    position:absolute;
+    left:3.5rem;
+    top:12rem;
+}
+.val input:nth-child(2):focus{
+    outline: none;
+}
+.val input:nth-child(4):focus{
+    outline:none;
+}
+.val span:nth-child(1){
+    color: rgba(0, 0, 0, 0.577);
+    position: relative;
+    left:6rem;
+    top:5rem;
+    z-index:1;
+    background-color: rgb(255, 255, 255);
+    width:13rem;
+    padding:10px;
+    border-radius:10px;
+    height:10px;
+    font-size:22px;
+    transition: 1s;
+    font-family: 'Bree Serif', serif;
+}
+.val span:nth-child(3){
+    color: rgba(0, 0, 0, 0.577);
+    position: relative;
+    font-family: 'Bree Serif', serif;
+    left:0rem;
+    top:13.5rem;
+    z-index:1;
+    background-color: rgb(255, 255, 255);
+    width:13rem;
+    padding:10px;
+    border-radius:10px;
+    height:10px;
+    font-size:22px;
+    transition: 1s;
+}
+.btn button{
+    position: absolute;
+    bottom:17rem;
+    left:38%;
+    width:10rem;
+    height:50px;
+    border-radius:10px;
+    background-color:orange;
+    color:rgb(0, 0, 0);
+    font-weight:900;
+    border-style:none;
+}
+.btn button:active{
+    transform:scale(0.98,0.98);
+}
+.sign .forget h2:nth-child(1){
+    position: relative;
+    top:5rem;
+    font-size:14px;
+    right:-15rem;
+    font-weight:700;
+    color:rgb(2, 2, 145);
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.forget h2:active{
+    transform: scale(0.98,0.98);
+    text-decoration: underline;
+}
+.detail{
+    font-family: 'Courier New', Courier, monospace;
+    position:absolute;
+    bottom:5rem;
+    left:2rem;
+}
+.view img:nth-child(1){
+    width:30px;
+    position: absolute;
+    right:5rem;
+    top:20.7rem;
+    opacity:0.7;
+}
+.view img:nth-child(2){
+    width:30px;
+    position: absolute;
+    right:5rem;
+    top:20.7rem;
+    display:none;
+    opacity:0.7;
+}
+
+.rank{
+    background-color:red;
+    width:0rem;
+    border-radius:1000px;
+    height:3px;
+    position: absolute;
+    bottom:25rem;
+    left:4rem;
+    
+    transition:5s;
+}
+.rank-det{
+    color: green;
+    position: absolute;
+    top:24.5rem;
+    left:4.5rem;
+    display: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.sign{
+    background-color:rgba(255, 255, 255, 0.343);
+    width:53rem;
+    height:30rem;
+    position: absolute;
+    bottom:20rem;
+    left:5rem;
+    border-radius:30px;
+    box-shadow:0px 10px 20px rgb(189, 189, 189,0.5);
+    display:none;
+}
+@keyframes side2 {
+    0%{
+        left:-50rem;
+    }    
+}
+@keyframes side3 {
+    0%{
+        left: 5rem;
+    }100%{
+        left:-50rem;
+        opacity:0.2;
+    }
+    
+}
+.sign h2:nth-child(1){
+    text-align: center;
+    font-family:'Pacifico',cursive;
+    position: relative;
+    top:2rem;
+}
+.sign input:nth-child(2),input:nth-child(3){
+    width:300px;
+    position: relative;
+    left:4rem;
+    margin-left:10px;
+    top:4rem;
+    height:4rem;
+    border-radius:20px;
+    padding-left:20px;
+    border: 2px solid rgb(198, 198, 198);
+    font-size:18px;
+    font-family: 'Courier New', Courier, monospace;
+
+
+}
+.forget h3{
+    color: blue;
+    font-size:16px;
+    position: absolute;
+    bottom:13rem;
+    left:5rem;
+    cursor: pointer;
+}
+.forget h3:hover{
+    text-decoration: underline;
+}
+.forget h3:active{
+    transform: scale(0.95,0.95);
+
+}
+.sign input:nth-child(2):focus,input:nth-child(3):focus{
+    outline: none;
+}
+.sign button{
+    position: absolute;
+    bottom:10rem;
+    left:21rem;
+    width:150px;
+    height:50px;
+    background-color:rgb(255, 162, 0);
+    border-style: none;
+    border-radius:20px;
+}.sign button:active{
+    transform: scale(0.98,0.98);
+    box-shadow:1px 1px 10px rgb(153, 153, 153);
+}
+.blackscreen{
+    background-color: rgba(0, 0, 0, 0.903);
+    width:100%;
+    height:100%;
+    position: absolute;
+    z-index:2;
+    display:none;
+    transition: 1s;
+
+}
+.sign .forget_sign img:nth-child(1){
+    position:absolute;
+    width:30px;
+    left:49rem;
+    display: block;
+    top:10.5rem;
+    cursor: pointer;
+    opacity: 0.7;
+}
+.sign .forget_sign img:nth-child(2){
+    position:absolute;
+    width:30px;
+    left:49rem;
+    top:10.5rem;
+    display: none;
+    cursor:pointer;
+    opacity:0.7;
+}
+.blackscreen button{
+    width:20rem;
+    height:8rem;
+    border-radius:20px;
+    font-size:24px;
+    position: absolute;
+    bottom:20rem;
+    left:67rem;
+    color:orange;
+    background-color: black;
+    border-style:none;
+    font-weight: 700;
+    transition: 0.9s;
+    
+}.blackscreen button:hover
+{
+    background-color:white;
+    transition: 0.9s;
+    color: black;
+    box-shadow: 2px 2px 30px orange;
+}
+.blackscreen button:active
+{
+    transform: scale(0.95,0.95);
+    
+}
+.blackscreen h1{
+    color: rgb(245, 187, 0);
+    top:15rem;
+    font-family:'Pacifico',cursive;
+    font-size:120px;
+    position: absolute;
+    left:19%;
+    
+}
+.blackscreen h2{
+    color:white;
+    font-size:100px;
+    font-family:'pacifico',cursive;
+    position: absolute;
+    left:54rem;
+    top:17rem;
+}
+
+.blackscreen .word div:nth-child(1){
+    background-color: white;
+    position: absolute;
+    top:-10rem;
+    width:50%;
+    height:1px;
+    transform: rotate(90deg);
+}
+.pic-offer img:nth-child(1)
+{
+    width:300px;
+    position: absolute;
+    right:8rem;
+    bottom:17rem;
+}
+.pic-offer img:nth-child(2)
+{
+    width:800px;
+    position: absolute;
+    right:3rem;
+    bottom:5rem;
+}
+
+.order h1:nth-child(1)
+{
+    color:white;
+    position: absolute;
+    top:15rem;
+    left:100rem;
+    font-size:60px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.order h1:nth-child(2)
+{
+    color:rgb(237, 2, 2);
+    position: absolute;
+    top:15rem;
+    left:100rem;
+    
+}
+
+
+

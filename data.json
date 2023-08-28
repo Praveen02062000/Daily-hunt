@@ -1,0 +1,48 @@
+{
+  "data":[
+    {
+      "id":1,
+       "img":"https://b.zmtcdn.com/data/dish_photos/643/32ef0972970366efec1fd0838705a643.png",
+       "name":"Domino's Pizza",
+       "price":50
+    },
+    {
+      "id":2,
+       "img":"https://b.zmtcdn.com/data/dish_photos/c41/990d88178f4bdba9d1af10a47fcffc41.jpg",
+       "name":"Lassi Shop",
+       "price":150
+    },
+    {
+      "id":3,
+       "img":"https://b.zmtcdn.com/data/dish_photos/731/62fc2860c82574036fad800cf6129731.jpg",
+       "name":"Lola's Pizzeria",
+       "price":350
+    },
+    {
+      "id":4,
+       "img":"https://b.zmtcdn.com/data/dish_photos/d55/44fde69d17452b101428f868c7316d55.png",
+       "name":"Line's Brickoven",
+       "price":250
+    },
+    {
+      "id":5,
+       "img":"https://b.zmtcdn.com/data/dish_photos/df0/2399edc19d7eb5b7d9216586df408df0.jpg",
+       "name":"Madras Pizza",
+       "price":100
+    },
+    {
+      "id":6,
+       "img":"https://b.zmtcdn.com/data/dish_photos/106/8c8bf293dc095b927faf1c63256ba106.jpg",
+       "name":"EatFit",
+       "price":100
+    },
+    {
+      "id":7,
+       "img":"https://b.zmtcdn.com/data/dish_photos/f4a/da3d32d1642b83faff61b603cb6a5f4a.jpg",
+       "name":"Double Roti",
+       "price":650
+    }
+   
+
+  ]
+}
